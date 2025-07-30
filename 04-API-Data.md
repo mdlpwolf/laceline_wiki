@@ -1,8 +1,5 @@
-# 04‑API & Data
-
 *(Référence d’intégration pour développeurs internes / partenaires)*
 
-````markdown
 # 04‑API & Data
 
 ## 1. Principes généraux
@@ -154,9 +151,3 @@ Tests de qualité nightly via **dbt** (`dbt test`).
 | 1 | Rédiger le JSON Schema complet              | Data Engineer | 25 août 2025  |
 | 2 | Mettre en place tests contractuels **Pact** | Backend       | 1ᵉʳ sept 2025 |
 | 3 | Publier guide webhooks détaillé             | Tech Writer   | 3 sept 2025   |
-
-```
-
-> Copiez le bloc ci‑dessus dans `04-API-Data.md`. Ajoutez vos remarques inline pour validation.
-
-```
