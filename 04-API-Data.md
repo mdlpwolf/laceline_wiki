@@ -1,8 +1,6 @@
 *(Référence d’intégration pour développeurs internes / partenaires)*
 
-# 04‑API & Data
-
-## 1. Principes généraux
+# 1. Principes généraux
 - API **RESTful** (JSON over HTTP, stateless, resource‑oriented).
 - Versionnage dans l’URL : `/v1/` (breaking change → `/v2/`).
 - Authentification : **JWT** Azure AD (OIDC) pour les utilisateurs humains, **PAT** (Personal Access Token) pour les intégrations service‑to‑service.
@@ -10,7 +8,7 @@
 
 ---
 
-## 2. Base URLs
+# 2. Base URLs
 | Environnement | URL racine |
 |---------------|-----------|
 | **Staging** | `https://dmp-staging.api.example.com/v1/` |
@@ -18,7 +16,7 @@
 
 ---
 
-## 3. Auth & Headers standards
+# 3. Auth & Headers standards
 ```http
 Authorization: Bearer <jwt>
 X-Request-ID: <uuid4>   # pour le tracing
@@ -27,7 +25,7 @@ Accept: application/json; charset=utf-8
 
 ---
 
-## 4. Ressources principales
+# 4. Ressources principales
 
 | Verbe    | Endpoint                   | Description                                     |
 | -------- | -------------------------- | ----------------------------------------------- |
@@ -41,9 +39,9 @@ La documentation interactive Swagger est disponible sur `/docs`.
 
 ---
 
-## 5. Modèles JSON (extraits)
+# 5. Modèles JSON (extraits)
 
-### 5.1 ForecastLine
+## 5.1 ForecastLine
 
 ```json
 {
@@ -55,7 +53,7 @@ La documentation interactive Swagger est disponible sur `/docs`.
 }
 ```
 
-### 5.2 ScenarioAssumption
+## 5.2 ScenarioAssumption
 
 ```json
 {
@@ -67,14 +65,14 @@ La documentation interactive Swagger est disponible sur `/docs`.
 
 ---
 
-## 6. Pagination & Filtres
+# 6. Pagination & Filtres
 
 * Pagination **cursor‑based** : `?cursor=<opaque_id>&limit=100` (max = 500).
 * Filtres communs : `client`, `sku`, `period_from`, `period_to`.
 
 ---
 
-## 7. Gestion des erreurs (format commun)
+# 7. Gestion des erreurs (format commun)
 
 ```json
 {
@@ -90,7 +88,7 @@ La documentation interactive Swagger est disponible sur `/docs`.
 
 ---
 
-## 8. Webhooks sortants
+# 8. Webhooks sortants
 
 | Événement            | Endpoint example  | Payload résumé               |
 | -------------------- | ----------------- | ---------------------------- |
@@ -102,14 +100,14 @@ La documentation interactive Swagger est disponible sur `/docs`.
 
 ---
 
-## 9. Import / Export
+# 9. Import / Export
 
 * **Import** : Excel `*.xlsx` (onglet `Forecast`) ou CSV UTF‑8. Le fichier doit contenir les colonnes : `sku, client, period, qty, price`.
 * **Export** : CSV, Excel, ou **NDJSON** (streaming) pour gros volumes.
 
 ---
 
-## 10. Data Flow (haut‑niveau)
+# 10. Data Flow (haut‑niveau)
 
 ```mermaid
 graph LR
@@ -125,14 +123,14 @@ graph LR
 
 ---
 
-## 11. Versioning & Dépréciation
+# 11. Versioning & Dépréciation
 
 * Ajout de champs ⇒ **compatibilité ascendante** (pas de nouvelle version).
 * Breaking change ⇒ nouvelle URL `/vX/` + header HTTP `Deprecation: <date>` (minimum 90 jours de chevauchement).
 
 ---
 
-## 12. Gouvernance des données
+# 12. Gouvernance des données
 
 | Rôle          | Nom             | Responsabilité                         |
 | ------------- | --------------- | -------------------------------------- |
@@ -144,7 +142,7 @@ Tests de qualité nightly via **dbt** (`dbt test`).
 
 ---
 
-## 13. Prochaines actions
+# 13. Prochaines actions
 
 | # | Tâche                                       | Responsable   | Échéance      |
 | - | ------------------------------------------- | ------------- | ------------- |
