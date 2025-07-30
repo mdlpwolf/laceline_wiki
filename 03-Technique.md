@@ -41,7 +41,9 @@
 
 ---
 
-## :warning: a partir de ce point, ce qui est présenté dépasse l'état d'avancement du développement. Tout ce qui suit est donc à titre indicatif, et est largement sujet à variations.
+:warning: a partir de ce point, ce qui est présenté dépasse l'état d'avancement du développement. Tout ce qui suit est donc à titre indicatif, et est largement sujet à variations.
+
+---
 
 # 2. Modèle de données (idée)
 
