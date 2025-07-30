@@ -13,16 +13,16 @@ Ce wiki centralise **la documentation fonctionnelle et technique** du projet afi
 
 ## :map: Plan du wiki
 
-| Section | À quoi ça sert ? |
-|---------|------------------|
-| [01‑Projet](01-Projet) | Contexte, objectifs, KPIs clés, référentiel marché |
-| [02‑Fonctionnel](02-Fonctionnel) | Parcours utilisateurs, règles de gestion, scénarios S&OP |
-| [03‑Technique](03-Technique) | Architecture FastAPI & Docker, normes de dev, CI/CD |
-| [04‑API & Data](04-API-Data) | Spécifications API, schémas JSON, mapping Data |
-| [05‑Agile & Backlog](05-Agile-Backlog) | Liens vers Boards & épics GitLab |
-| [06‑How‑to / FAQ](06-How-to-FAQ) | Guides pas‑à‑pas et questions fréquentes |
-| [07‑Connaissance métier](07-Connaissance-metier) | Processus Demand Planning, glossaire Supply‑Chain |
-| [Changelog](Changelog) | Historique des versions livrées |
+| Section | À quoi ça sert ? | Etat |
+|---------|------------------| -----------------|
+| [01‑Projet](01-Projet) | Contexte, objectifs, KPIs clés, référentiel marché | V1 ok |
+| [02‑Fonctionnel](02-Fonctionnel) | Parcours utilisateurs, règles de gestion, scénarios S&OP | V1 ok |
+| [03‑Technique](03-Technique) | Architecture FastAPI & Docker, normes de dev, CI/CD | V1 ok |
+| [04‑API & Data](04-API-Data) | Spécifications API, schémas JSON, mapping Data | V1 ok |
+| [05‑Agile & Backlog](05-Agile-Backlog) | Liens vers Boards & épics GitLab | TODO |
+| [06‑How‑to / FAQ](06-How-to-FAQ) | Guides pas‑à‑pas et questions fréquentes | TODO |
+| [07‑Connaissance métier](07-Connaissance-metier) | Processus Demand Planning, glossaire Supply‑Chain | TODO |
+| [Changelog](Changelog) | Historique des versions livrées | TODO |
 
 ---
 
