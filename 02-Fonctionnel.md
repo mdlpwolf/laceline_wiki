@@ -1,8 +1,4 @@
-# 02‑Fonctionnel
-
-*Page décrivant les considérations métier ; compléter au fil de l'eau*
-
-## 1. Personas & rôles
+# 1. Personas & rôles
 
 **Déposant** (Commerce / Web / Marketing)
 • Charge un fichier Excel/CSV ou saisit en ligne les prévisions.
@@ -23,7 +19,7 @@
 
 ---
 
-## 2. Parcours utilisateur – Dépôt → Validation
+# 2. Parcours utilisateur – Dépôt → Validation
 
 1. **Drag‑drop** du fichier dans l’écran *Importer prévisions*.
 2. **Validation technique** automatique : format, doublons `(Client, SKU, Période)`, valeurs numériques ≥ 0.
@@ -32,7 +28,7 @@
 
 ---
 
-## 3. Workflow & statuts
+# 3. Workflow & statuts
 
 | Statut            | Éditable par               | Transition                  |
 | ----------------- | -------------------------- | --------------------------- |
@@ -45,7 +41,7 @@
 
 ---
 
-## 4. Règles de gestion essentielles
+# 4. Règles de gestion essentielles
 
 * **Unicité** : `(Client, SKU, Période)` unique par snapshot.
 * **Quantité minimale** : `qty ≥ 0`.
@@ -54,7 +50,7 @@
 
 ---
 
-## 5. Scénarios & simulation S\&OP
+# 5. Scénarios & simulation S\&OP
 
 * **Créer** un scénario : clone du snapshot validé (< 10 s).
 * **Appliquer** des drivers (variables - exemples : ∆ vente ; revue ↗ | ↘ ) via formulaire ou import.
@@ -64,7 +60,7 @@
 
 ---
 
-## 6. KPI & Dashboards
+# 6. KPI & Dashboards
 
 | KPI                         | Description                  | Objectif 2026 |
 | --------------------------- | ---------------------------- | ------------- |
@@ -75,13 +71,13 @@
 
 ---
 
-## 7. Glossaire
+# 7. Glossaire
 
 *Driver* · *Snapshot* · *Scenario* · *PO* · *MAPE*
 
 ---
 
-## 8. Definition of Ready / Definition of Done
+# 8. Definition of Ready / Definition of Done
 
 **Ready** : règles définies, maquette écran validée
 **Done** : tests verts, wiki mis à jour, KPI visible
