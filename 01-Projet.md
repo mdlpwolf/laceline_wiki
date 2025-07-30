@@ -1,10 +1,11 @@
-## 01‑Projet – Plateforme **Demand Planning & IA**
-
-Cette page — destinée à tous les acteurs métier et IT — synthétise le **“pourquoi” et le “quoi”** du projet : contexte, valeur attendue, indicateurs de succès, parties prenantes, périmètre et positionnement face au marché. Elle sert de porte‑d’entrée fonctionnelle ; les détails techniques sont documentés dans les répertoires `03‑Technique` et `04‑API & Data`.
+---
+title: 01 Projet - Plateforme Demand Planning
+---
+Cette page synthétise le **“pourquoi” et le “quoi”** du projet : contexte, valeur attendue, indicateurs de succès, parties prenantes, périmètre et positionnement face au marché. Elle sert de porte‑d’entrée fonctionnelle ; les détails techniques sont documentés dans les répertoires `03‑Technique` et `04‑API & Data`.
 
 ---
 
-### 1. Contexte & problématique
+# 1. Contexte & problématique
 
 La prévision des ventes s’appuie aujourd’hui sur des fichiers Excel volumineux ; intégration manuelle des prévisions de vente de chaque canal (Commerce, Web, Marketing) par la Demand Planning, ce qui génère **surcharge manuelle, erreurs de liaison et manque de traçabilité** [usmsupplychain.com](https://usmsupplychain.com/excel-functions-for-demand-planning/).\
 Selon McKinsey, **80 % des entreprises industrielles fonctionnent encore avec un processus S&OP séquentiel et peu automatisé**, ralentissant la prise de décision [McKinsey & Company](https://www.mckinsey.com/capabilities/operations/our-insights/autonomous-supply-chain-planning-for-consumer-goods-companies).
@@ -13,7 +14,7 @@ Selon McKinsey, **80 % des entreprises industrielles fonctionnent encore avec 
 
 ---
 
-### 2. Vision & objectifs mesurables
+# 2. Vision & objectifs mesurables
 
 Ces indicateurs, pour l'heure présentés à titre indicatifs, permettrons de confirmer que nous avons atteint la cible, tant d'un point de vue technique que fonctionnel. 
 
@@ -26,7 +27,7 @@ Ces indicateurs, pour l'heure présentés à titre indicatifs, permettrons de co
 
 ---
 
-### 3. Parties prenantes & rôles
+# 3. Parties prenantes & rôles
 
 | Groupe | Responsabilités clés |
 |--------|----------------------|
@@ -38,7 +39,7 @@ Ces indicateurs, pour l'heure présentés à titre indicatifs, permettrons de co
 
 ---
 
-### 4. Référentiel marché (benchmark)
+# 4. Référentiel marché (benchmark)
 
 | Solution | Points saillants “best‑in‑class” | Référence |
 |----------|----------------------------------|-----------|
@@ -52,14 +53,14 @@ Ces références guident nos exigences : import Excel drag‑drop, scénario �
 
 ---
 
-### 5. Périmètre & exclusions (Lot 1)
+# 5. Périmètre & exclusions (Lot 1)
 
 * **Inclus** : produits finis lingerie (France + E‑commerce), workflow 4 états, dashboards KPI, scénario S&OP v1.
 * **Exclus** : échantillons, SMS, IA de pricing dynamique avancée (phase R5).
 
 ---
 
-### 6. Roadmap & jalons macro
+# 6. Roadmap & jalons macro
 
 | Date cible | Release | Contenu majeur |
 |------------|---------|----------------|
@@ -72,7 +73,7 @@ _(Cycles Agile 3 semaines, démo publique à chaque sprint ; backlog détaill�
 
 ---
 
-### 7. Glossaire express
+# 7. Glossaire express
 
 | Terme | Définition |
 |-------|------------|
@@ -83,7 +84,7 @@ _(Cycles Agile 3 semaines, démo publique à chaque sprint ; backlog détaill�
 
 ---
 
-### 8. Prochaines actions
+# 8. Prochaines actions
 
 1. **Valider ce contenu** en réunion Teams (Planner) – ajouter commentaires inline.
 2. **Mettre à jour le Canvas CdC** si de nouveaux KPIs ou exclusions émergent.
