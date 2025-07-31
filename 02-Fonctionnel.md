@@ -14,8 +14,8 @@
 • Gère les comptes et les intégrations (ERP, PLM, SSO).
 
 :warning: **Contrôle de Gestion**
-• Suite aux échanges du 30/07/2025, il devient apparent que l'application peut aussi comprendre un espace dédié au Contrôle de Gestion. En effet, de nombreux suivis réalisés par cette équipe reprend les mêmes données que celles que nous traiteront pour la DP.
-• Horizon Septembre [Release 1], faire une récolte du besoin en regard de ce qui est déjà réalisé pour fournir au CG une interface de consultation (suite réflexion, prepack, kit & tout le toutim)
+• Suite aux échanges du 30/07/2025, évaluer la faisabilité d'inclure dans l'application un espace dédié au Contrôle de Gestion. En effet, de nombreux suivis réalisés par cette équipe reprennent les mêmes données, et traitements que la DP.
+• Horizon Septembre [Release 1], faire une récolte du besoin en regard de ce qui est déjà réalisé pour fournir au CG une interface de consultation (ex : prepack, kit, etc.)
 
 ---
 
