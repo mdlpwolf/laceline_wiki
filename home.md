@@ -1,7 +1,8 @@
 ---
-title: "Plateforme Demand\_Planning\_&\_IA – Wiki"
+title: LaceLine Wiki
 ---
-Bienvenue !\
+
+🎀 Bienvenue !\
 Ce wiki centralise **la documentation fonctionnelle et technique** du projet afin que chacun puisse comprendre, contribuer et suivre l’avancement.
 
 ---
