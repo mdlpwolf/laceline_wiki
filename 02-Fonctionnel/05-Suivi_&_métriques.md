@@ -1,4 +1,7 @@
-# 6. KPI & Dashboards
+---
+title: KPI & Dashboards
+status: "draft"
+---
 
 | KPI                         | Description                  | Objectif 2026 |
 | --------------------------- | ---------------------------- | ------------- |

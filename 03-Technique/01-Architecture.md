@@ -1,4 +1,7 @@
-# 1. Architecture
+---
+title: Architecture
+status: "draft"
+---
 
 ---
 

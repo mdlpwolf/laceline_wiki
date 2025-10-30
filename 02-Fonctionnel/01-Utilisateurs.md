@@ -1,4 +1,7 @@
-# 1. Personas & rôles
+---
+title: Personas & Rôles
+status: "draft"
+---
 
 **Déposant** (Commerce / Web / Marketing)
 • Charge un fichier Excel/CSV ou saisit en ligne les prévisions.

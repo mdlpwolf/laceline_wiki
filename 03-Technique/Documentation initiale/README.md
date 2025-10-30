@@ -1,4 +1,7 @@
-# FastAPI, Jinja2, PostgreSQL Webapp Template
+---
+title: FastAPI, Jinja2, PostgreSQL Webapp Template
+status: "draft"
+---
 
 ---
 

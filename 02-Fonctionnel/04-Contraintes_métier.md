@@ -1,4 +1,7 @@
-# 4. Règles de gestion essentielles
+---
+title: Règles de gestion essentielles
+status: "draft"
+---
 
 * **Unicité** : `(Client, SKU, Période)` unique par snapshot.
 * **Quantité minimale** : `qty ≥ 0`.

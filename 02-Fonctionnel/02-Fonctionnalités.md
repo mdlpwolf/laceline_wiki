@@ -1,5 +1,7 @@
-# 2. Principales fonctionnalités
-
+---
+title: Principales fonctionnalités
+status: "draft"
+---
 ## Gestion des "Clients"
 
 ## Gestion des "Collections"

@@ -1,4 +1,7 @@
-# 3. Parcours utilisateur – Dépôt → Validation
+---
+title: Parcours utilisateur – Dépôt → Validation
+status: "draft"
+---
 
 1. **Drag‑drop** du fichier dans l’écran *Importer prévisions*.
 2. **Validation technique** automatique : format, doublons `(Client, SKU, Période)`, valeurs numériques ≥ 0.

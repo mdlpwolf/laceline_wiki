@@ -4,18 +4,24 @@ status: "draft"
 tags: ["architecture", "howto"]
 ---
 
+---
+
+:warning: DEPRECATED - Nécessite une mise à jour
+
+---
+
 🎀 Bienvenue !\
 Ce wiki centralise **la documentation fonctionnelle et technique** du projet afin que chacun puisse comprendre, contribuer et suivre l’avancement.
 
 ---
 
-# :rocket: Vision rapide
+## :rocket: Vision rapide
 
 > Réduire de **70 %** le temps nécessaire à la création d’un Purchase Order et fiabiliser la prévision grâce à une plateforme collaborative, intégrée et évolutive (IA ready).
 
 ---
 
-# :map: Plan du wiki
+## :map: Plan du wiki
 
 | Section | À quoi ça sert ? | Etat |
 |---------|------------------|------|
@@ -30,9 +36,9 @@ Ce wiki centralise **la documentation fonctionnelle et technique** du projet afi
 
 ---
 
-# :key: Termes essentiels
+## :key: Termes essentiels
 
-## :bikini: Métier
+### :bikini: Métier
 
 * **SKU**
 * **Pièce**
@@ -45,7 +51,7 @@ Ce wiki centralise **la documentation fonctionnelle et technique** du projet afi
 * **GMS**
 * **FDV**
 
-## :gear: Technique
+### :gear: Technique
 
 * **Forecast Snapshot** : capture datée des prévisions validées.
 * **Scenario** : copie isolée d’un snapshot pour simulation _what‑if_ S&OP (voir 02‑Fonctionnel).
@@ -55,7 +61,7 @@ Ce wiki centralise **la documentation fonctionnelle et technique** du projet afi
 
 ---
 
-# :checkered_flag: Démarrage rapide pour les nouveaux
+## :checkered_flag: Démarrage rapide pour les nouveaux
 
 1. **Cloner le repo** : `git clone git@gitlab.com:org/dmp.git`
 2. **Lancer l’environnement local** : ( :grey_exclamation: pour l'instant, seul le frontend est développé :grey_exclamation:)
