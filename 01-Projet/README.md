@@ -87,7 +87,6 @@ _(Cycles Agile 3 semaines, démo publique à chaque sprint ; backlog détaill�
 # 8. Prochaines actions
 
 1. **Valider ce contenu** en réunion Teams (Planner) – ajouter commentaires inline.
-2. **Mettre à jour le Canvas CdC** si de nouveaux KPIs ou exclusions émergent.
 3. **Créer issues GitLab** pour chaque jalon Roadmap.
 
 ---

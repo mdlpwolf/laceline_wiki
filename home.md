@@ -1,5 +1,7 @@
 ---
 title: LaceLine Wiki
+status: "draft"
+tags: ["architecture", "howto"]
 ---
 
 🎀 Bienvenue !\
